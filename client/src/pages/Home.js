@@ -2,7 +2,6 @@ import ContextDisplay from "../components/ContextDisplay";
 import ContextChanger from "../components/ContextChanger";
 import TailwindDemo from "../components/TailwindDemo";
 import ExpressTest from "../components/ExpressTest";
-import MongooseTest from "../components/MongooseTest";
 
 export default function Home() {
   return (
@@ -12,7 +11,6 @@ export default function Home() {
       <ContextChanger />
       <TailwindDemo />
       <ExpressTest />
-      <MongooseTest />
     </div>
   );
 }
