@@ -7,10 +7,11 @@ const PORT = process.env.PORT || 3001;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+require("./routes/auth")(app)
 require("./routes/api")(app)
 
 const CONNECTION_URL =
-  "mongodb+srv://user:user@cluster0.z1jen.mongodb.net/authDemo?retryWrites=true&w=majority";
+  "mongodb+srv://user:user@cluster0.z1jen.mongodb.net/0authpalooza?retryWrites=true&w=majority";
 
 mongoose
   .connect(CONNECTION_URL, {

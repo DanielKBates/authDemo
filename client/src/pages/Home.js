@@ -2,6 +2,7 @@ import ContextDisplay from "../components/ContextDisplay";
 import ContextChanger from "../components/ContextChanger";
 import TailwindDemo from "../components/TailwindDemo";
 import ExpressTest from "../components/ExpressTest";
+import AuthDisplay from "../components/AuthDisplay";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <ContextChanger />
       <TailwindDemo />
       <ExpressTest />
+      <AuthDisplay />
     </div>
   );
 }
